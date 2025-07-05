@@ -1,2 +1,13 @@
+com\trafigura\positionManagementSystem\repository\TradeStatusRepository.class
 com\trafigura\positionManagementSystem\PositionManagementSystemApplication.class
+com\trafigura\positionManagementSystem\repository\TradeRepository.class
+com\trafigura\positionManagementSystem\model\Transaction.class
+com\trafigura\positionManagementSystem\model\TradeId.class
+com\trafigura\positionManagementSystem\model\TradeIdGen.class
+com\trafigura\positionManagementSystem\repository\TransactionRepository.class
+com\trafigura\positionManagementSystem\repository\PositionRepository.class
+com\trafigura\positionManagementSystem\repository\TradeIdGenRepository.class
 com\trafigura\positionManagementSystem\repository\triggers\TradeIdVersionTrigger.class
+com\trafigura\positionManagementSystem\model\TradeStatus.class
+com\trafigura\positionManagementSystem\model\Position.class
+com\trafigura\positionManagementSystem\model\Trade.class

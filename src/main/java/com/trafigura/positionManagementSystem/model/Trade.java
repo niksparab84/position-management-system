@@ -12,6 +12,7 @@ import java.sql.Timestamp;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "TRADE", uniqueConstraints = @UniqueConstraint(columnNames = {"trade_id", "version"}))
+@IdClass(TradeId.class)
 public class Trade {
     @Id
     @Column(name = "trade_id")

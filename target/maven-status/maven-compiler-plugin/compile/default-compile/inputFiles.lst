@@ -1,2 +1,13 @@
-D:\Nikhil_Workspace\java_workspace\position-management-system\src\main\java\com\trafigura\positionManagementSystem\repository\triggers\TradeIdVersionTrigger.java
+D:\Nikhil_Workspace\java_workspace\position-management-system\src\main\java\com\trafigura\positionManagementSystem\repository\PositionRepository.java
+D:\Nikhil_Workspace\java_workspace\position-management-system\src\main\java\com\trafigura\positionManagementSystem\repository\TradeStatusRepository.java
+D:\Nikhil_Workspace\java_workspace\position-management-system\src\main\java\com\trafigura\positionManagementSystem\model\Trade.java
+D:\Nikhil_Workspace\java_workspace\position-management-system\src\main\java\com\trafigura\positionManagementSystem\model\TradeIdGen.java
+D:\Nikhil_Workspace\java_workspace\position-management-system\src\main\java\com\trafigura\positionManagementSystem\model\TradeStatus.java
+D:\Nikhil_Workspace\java_workspace\position-management-system\src\main\java\com\trafigura\positionManagementSystem\repository\TradeRepository.java
 D:\Nikhil_Workspace\java_workspace\position-management-system\src\main\java\com\trafigura\positionManagementSystem\PositionManagementSystemApplication.java
+D:\Nikhil_Workspace\java_workspace\position-management-system\src\main\java\com\trafigura\positionManagementSystem\repository\TradeIdGenRepository.java
+D:\Nikhil_Workspace\java_workspace\position-management-system\src\main\java\com\trafigura\positionManagementSystem\repository\TransactionRepository.java
+D:\Nikhil_Workspace\java_workspace\position-management-system\src\main\java\com\trafigura\positionManagementSystem\model\Position.java
+D:\Nikhil_Workspace\java_workspace\position-management-system\src\main\java\com\trafigura\positionManagementSystem\repository\triggers\TradeIdVersionTrigger.java
+D:\Nikhil_Workspace\java_workspace\position-management-system\src\main\java\com\trafigura\positionManagementSystem\model\TradeId.java
+D:\Nikhil_Workspace\java_workspace\position-management-system\src\main\java\com\trafigura\positionManagementSystem\model\Transaction.java
