@@ -1,0 +1,22 @@
+# Spring Boot application configuration file
+server:
+  port: 8080
+  servlet:
+    context-path: /position-management-system/api
+
+spring:
+  application:
+    name: position-management-system
+    swagger:
+      enabled: true
+      title: Position Management System API
+      description: API for managing positions in the system
+      version: 1.0.0
+    #H2 database configuration
+    datasource:
+        url: jdbc:h2:mem:positiondb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+        driver-class-name: org.h2.Driver
+        username: sa
+        password:
+
+
