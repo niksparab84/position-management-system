@@ -1,11 +1,16 @@
 package com.trafigura.positionManagementSystem.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import jakarta.persistence.*;
+import lombok.NoArgsConstructor;
+
 import java.sql.Timestamp;
 
 @Data
 @Entity
+@AllArgsConstructor
+@NoArgsConstructor
 @Table(name = "TRADE", uniqueConstraints = @UniqueConstraint(columnNames = {"trade_id", "version"}))
 public class Trade {
     @Id
