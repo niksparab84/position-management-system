@@ -2,7 +2,7 @@
 Simple Equities Position Management System for Trafigura Coding Assessment
 
 # Overview
-````
+```
 Project: Maven
 Language: Java
 Spring Boot: 3.x
@@ -11,10 +11,12 @@ Artifact: position-management-system
 Name: position-management-system
 Package: com.trafigura.positionManagementSystem
 Dependencies: Spring Web, Spring Data JPA, H2 Database, Springdoc OpenAPI UI, Lombok, Spring Boot Test
+```
 
 # How to run the application
 ```
 Swagger UI: http://localhost:8080/position-management-system/swagger-ui/index.html
+
 ```
 
 # DATABASE SCHEMA FOR EQUITIES POSITION MANAGEMENT SYSTEM
