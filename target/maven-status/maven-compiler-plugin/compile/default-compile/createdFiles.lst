@@ -1,1 +1,2 @@
 com\trafigura\positionManagementSystem\PositionManagementSystemApplication.class
+com\trafigura\positionManagementSystem\repository\triggers\TradeIdVersionTrigger.class

@@ -7,16 +7,45 @@ server:
 spring:
   application:
     name: position-management-system
-    swagger:
+  swagger:
+    enabled: true
+    title: Position Management System API
+    description: API for managing positions in the system
+    version: 1.0.0
+  #H2 database configuration
+  h2:
+    console:
       enabled: true
-      title: Position Management System API
-      description: API for managing positions in the system
-      version: 1.0.0
-    #H2 database configuration
-    datasource:
-        url: jdbc:h2:mem:positiondb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
-        driver-class-name: org.h2.Driver
-        username: sa
-        password:
+      path: /h2-console
+  datasource:
+      url: jdbc:h2:mem:positiondb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+      driver-class-name: org.h2.Driver
+      username: sa
+      password:
+  jpa:
+      database-platform: org.hibernate.dialect.H2Dialect
+      show-sql: true
+      hibernate:
+          format_sql: true
+          ddl-auto: update # Use 'update' for development, 'validate' for production
+  sql:
+    init:
+      mode: always
+      encoding: UTF-8
+      schema-locations: classpath:schema.sql
+      #data-locations: classpath:data.sql
+  logging:
+    level:
+      org:
+        h2: DEBUG
+        hibernate:
+          SQL: DEBUG
+          type: #TRACE # Log SQL statements and parameter values
+            descriptor:
+              sql:
+                BasicBinder: TRACE
+        spring:
+          jdbc: DEBUG
+          orm: DEBUG
 
 

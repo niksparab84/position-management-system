@@ -1,6 +1,8 @@
 # position-management-system
 Simple Equities Position Management System for Trafigura Coding Assessment
 
+# Overview
+````
 Project: Maven
 Language: Java
 Spring Boot: 3.x
@@ -14,7 +16,8 @@ Dependencies: Spring Web, Spring Data JPA, H2 Database, Springdoc OpenAPI UI, Lo
 ```
 Swagger UI: http://localhost:8080/position-management-system/swagger-ui/index.html
 ```
-===================================================================================================================
+
+# DATABASE SCHEMA FOR EQUITIES POSITION MANAGEMENT SYSTEM
 ```
 -- DATABASE SCHEMA FOR EQUITIES POSITION MANAGEMENT SYSTEM
 -- Helper table for generating new trade_id
@@ -92,8 +95,8 @@ security_code VARCHAR(20) NOT NULL UNIQUE,
 quantity INT NOT NULL
 );
 ```
-===================================================================================================================
-Package Structure:
+
+# Package Structure:
 ```
 com/
 └── trafigura/
@@ -116,4 +119,3 @@ exception/: Custom exceptions and handlers
 config/: Configuration classes
 Test classes are placed under src/test/java/com/trafigura/positionManagementSystem with a similar structure.
 ```
-===================================================================================================================
